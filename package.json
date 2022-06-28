@@ -1,0 +1,19 @@
+{
+  "name": "asincronismo-course",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "callback": "node src/callbacks/challenge.js",
+    "promises": "node src/promises/challenge.js"
+  },
+  "keywords": [],
+  "author": "Andrés Rengifo <andresm.rengifo@gmail.com>",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "node-fetch": "^3.2.6",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "type": "module"
+}
